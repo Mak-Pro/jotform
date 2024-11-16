@@ -1,8 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Getting Started (need node js version above 18.7.1) for example 20.10.0 used here
 
-First, run the development server:
+First, run npm install
+
+Second, run the development server:
 
 ```bash
 npm run dev
@@ -14,7 +16,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://localhost:3000](https://localhost:3000) with your browser to see the result. If don't need https, in package.json please remove flag --experimental-https in "client" script and change on http in "open-browser" script.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
